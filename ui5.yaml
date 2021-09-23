@@ -2,3 +2,13 @@ specVersion: '2.5'
 metadata:
   name: fioriyoeman
 type: application
+resources:
+  configuration:
+    paths:
+      webapp: dist
+server:
+  customMiddleware:
+  - name: fiori-tools-appreload
+    afterMiddleware: compression
+    configuration:
+      port: 35729

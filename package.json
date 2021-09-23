@@ -4,11 +4,21 @@
   "description": "Yoeaman template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ui5 serve -o index.html"
   },
   "author": "gowri",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@sap/ux-specification": "^1.90.9",
+    "@sap/ux-ui5-tooling": "^1.3.3"
+  },
+  "ui5": {
+    "dependencies": [
+      "@sap/ux-ui5-tooling"
+    ]
   }
 }

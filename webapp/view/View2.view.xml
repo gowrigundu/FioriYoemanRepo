@@ -7,7 +7,7 @@
 			              number="{price}" numberUnit="{currency}" icon="{imageURL}"></ObjectHeader>
 			<IconTabBar>
 				<items>
-					<IconTabFilter text="Additional Info" key="" icon="sap-icon://home">
+					<IconTabFilter text="Additional Info-Gowri" key="" icon="sap-icon://home">
 						<content>
 							<f:SimpleForm>
 								<f:content>
