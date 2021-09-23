@@ -1,6 +1,6 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="gowri.app.controller.View2"
 	xmlns:f="sap.ui.layout.form" xmlns:html="http://www.w3.org/1999/xhtml">
-	<Page title="View 2" showNavButton="true" navButtonPress="onBack">
+	<Page title="Gowri-1" showNavButton="true" navButtonPress="onBack">
 		<content>
 			<!--<Button text="Back" press="onBack"></Button>-->
 			<ObjectHeader title="{name}" intro="{healthBenefit}" 
