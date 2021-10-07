@@ -1,21 +1,28 @@
 <html>
 	<head>
-		<script src="resources/sap-ui-core.js"
+		<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
 				data-sap-ui-libs="sap.m"
 				data-sap-ui-theme="sap_fiori_3_dark"
 				data-sap-ui-resourceroots='{
-					"gowri.app" : "./"
+					"gowri.app" : "../"
 				}'
 				data-sap-ui-bindingSyntax="complex"
 				data-sap-ui-language="en">
 		</script>
 		<script>
-
-			var oComponentContainer = new sap.ui.core.ComponentContainer({
+           
+            sap.ui.require(["gowri/app/localService/mockserver"], function(mockserver){
+					mockserver.init();
+					debugger;
+					var oComponentContainer = new sap.ui.core.ComponentContainer({
 				name: "gowri.app"
-			});
+			            });
 
 			oComponentContainer.placeAt("content");
+
+			});
+
+			
 
 		</script>
 	</head>
