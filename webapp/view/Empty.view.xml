@@ -5,6 +5,19 @@
 			<Page title="I am an Empty View">
 				<content>
 					<Text text="Please select a fruit on left"></Text>
+
+					<VBox id="id_vbox">
+					<SearchField search ="onSearch"/>
+					<Select change='onChange' id="id_select">
+					<items>
+					<core:Item key = "IndiaData" text = "India Covid Cases"/>
+                    <core:Item key = "AllCountries" text = "All Countries Data"/>
+					<core:Item key = "RecoveryData" text = "Recovery Cases"/>
+					<core:Item key = "Analytics" text = "Analytics"/>
+			
+					</items>
+					</Select>
+					</VBox>
 				</content>
 			</Page>
 		</pages>

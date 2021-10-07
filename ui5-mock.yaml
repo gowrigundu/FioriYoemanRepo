@@ -18,6 +18,3 @@ server:
         - /test-resources
         url: https://sapui5.hana.ondemand.com
         version: 1.78.0
-      backend:
-      - path: /sap
-        url: http://103.207.171.202:8021/

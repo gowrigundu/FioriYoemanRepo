@@ -7,6 +7,15 @@
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
+		"dataSources": {
+			"invoiceRemote": {
+				"uri": "/sap/opu/odata/sap/ZMAR_2021_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			}
+		},
 		"title": "{{appTitle}}",
 		"description": "{{appDesc}}",
 		"tags": {
@@ -95,7 +104,10 @@
 			}]
 		},
 		"models": {
-			"": {
+			"":{
+				"dataSource": "invoiceRemote"
+			},
+			"mock": {
 				"type": "sap.ui.model.json.JSONModel",
 				"settings": {},
 				"preload": true,

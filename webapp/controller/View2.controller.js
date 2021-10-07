@@ -21,7 +21,7 @@ sap.ui.define([
 			//debugger;	
 			
 			var navya = oEvent.getParameter("arguments").navya;
-			var sPath = '/fruits/' + navya;
+			var sPath = '/' + navya;
 			this.getView().bindElement(sPath);
 		},
 		

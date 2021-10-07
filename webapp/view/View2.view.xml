@@ -11,12 +11,12 @@
 						<content>
 							<f:SimpleForm>
 								<f:content>
-									<Label text="Color"></Label>
-									<Text text="{color}"></Text>
-									<Label text="Type"></Label>
-									<Text text="{type}"></Text>
-									<Label text="Status"></Label>
-									<Text text="{status}"></Text>
+									<Label text="Name"></Label>
+									<Text text="{NAME}"></Text>
+									<Label text="Description"></Label>
+									<Text text="{DESCRIPTION}"></Text>
+									<Label text="Supplier Id"></Label>
+									<Text text="{SUPPLIER_ID}"></Text>
 								</f:content>
 							</f:SimpleForm>
 						</content>
